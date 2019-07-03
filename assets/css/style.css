@@ -1,35 +1,18 @@
-{
+* {
     box-sizing: border-box;
 }
+
 body {
     background-image: url(../images/bg.jpg);
 } 
 
- 
- /* div{
-	background-color: white;
-	margin: 10px;
-	width: 25%
-} */
-/* div{
-	border: solid 2px antiquewhite;
-	padding: 10px;
-} */
-
-h1, h3, span{
-	font-weight: bold;
-	
-}
-h1{
-	font-size: 30pt;
-}
-
 .header {
     background-color: orange;
-    width: 30%;
+    width: 400px;
     color: white;
     text-align: center;
-    font-size: 30pt;
+    font-size: 20px;
+    font-weight: bold;
     
 }
 
@@ -37,57 +20,42 @@ ul {
     list-style-type: none;
     line-height: 25px;
     background-color: rgb(204, 183, 156);
-    width: 500px;
+    width: 600px;
     color: green;
     padding: 10px;
 }
-/* Specfic Elements*/
- /* div.gems{
-	background-color: #e0e0eb;
-} */
 
- div.instructions{
-	width: 50%;
+ div.instructions {
+	width: 500px;
 }
-/* Classes */
-.numberToMatch {
+
+.numberToGuess {
 	float: left;
-	width: 15%;
+	width: 200px;
     height: 100px;
+    text-align: center;
     background-color: rgb(21, 172, 114);
 }
-.winsAndLosses{
+.winsAndLosses {
     float: left;
-	width: 10%;
+	width: 100px;
     height: 100px;
     background-color: rgb(3, 175, 187);
     margin-left: 30px;
-    padding-left: 10px;
+    padding-left: 30px;
     font-size: 12px;
 }
-.userScore{
-	width: 15%;
-	height: 60px;
+.userScore {
+	width: 300px;
+    height: 100px;
+    background-color: teal;
+
 }
-.gems{
+.crystals {
     clear: both;
     padding-top: 20px;
 }
-.gemImage{
+.crystalPicture {
 	height: 60px;
 	margin: 10px;
 }
-
-/* IDs
-#blue{
-	color: #3092c7;
-}
-#green{
-	color: #00aa59;
-}
-#red{
-	color: #ec4b5f;
-}
-#yellow{
-	color: #ffc225;
-} */
