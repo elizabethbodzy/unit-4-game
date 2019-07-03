@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Crystals Collector!</h1>
+    </div>
+    <div class="instructions">
+        <ul>
+            <li>You will be given a random number at the start of the game.</li>
+            <li>There are four crystals below. By clicking on a crystal you will add a specific
+                amount of points to your total score.</li>
+            <li>You win the game by making your total score to random number, you lose
+                the game if your total score goes above the random number.</li>
+            <li>The value of each crystal is hidden from you until you click on it.</li>
+            <li>Each time when the game starts, the game will change the values of each crystal.</li>
+        </ul>
+    </div>
+            <div class="numberToGet">
+                <h2>Number To Get:
+                    <span id= "randomNumber"></span>
+                </h2>
+            </div>
+            <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id= "numberWins"></span>
+                    </br>
+                    Losses: 
+                    <span id= "numberLosses"></span>
+                </h2>
+            </div>
+            <div class="gems">
+                <button> <img id="gem-one" src="assets/images/emerald.jpg" class=gemImage alt="Emerald "></button>
+                <button> <img id="gem-two" src="assets/images/topaz.jpg" class=gemImage alt="Topaz"></button>
+                <button> <img id="gem-three" src="assets/images/sapphire.jpg" class=gemImage alt="Sapphire"> </button>
+                <button> <img id="gem-four" src="assets/images/ruby.jpg" class=gemImage alt="Ruby"></button>
+            </div>
+            <div class="userScore">
+                <h2>Your total score is:
+                    <span id="finalScore"></span>
+                </h2>
+            </div>
+            <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script> -->
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+        </body>
+        </html>
+
+
+       
